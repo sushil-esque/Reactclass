@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="forms">
+      <div class="enter">
+        <div class="name">
+          <div class="fname">
+            <label for="firstname">First name</label><br />
+
+            <input type="text" id="fistname" placeholder="First name" />
+          </div>
+          <div class="lname">
+            <label for="lastname">Last name</label><br />
+
+            <input
+              type="text"
+              id="lastname"
+              placeholder="Last name"
+            /><br /><br />
+          </div>
+        </div>
+        <label for="Email">Email</label><br />
+        <input class="email"    
+          type="email"
+          id="email"
+          placeholder="you@company.com"
+        /><br /><br />
+        <label for="phone-number">Phone number</label><br />
+        <select name="country" id="country">
+          <option value="Nepal">Nepal</option>
+          <option value="USA">USA</option>
+        </select>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="+000 90000000000"
+        /><br /><br />
+        <label for="message">Message</label><br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="leave us a message"
+        ></textarea
+        ><br />
+        <input type="checkbox" id="privacypolicy" />
+        <label class="pp" for="privacypolicy"
+          >You agree to our friendly <a href="">privacy policy</a></label ><br>
+      <button>Send Message</button>
+        </div>
+      <div class="photo">
+        <img src="images/bg2.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
