@@ -11,6 +11,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script>
+      function validateform() {
+        let x = forms.document.firstname.value;
+        if (x == "") {
+          alert("Name must be filed out");
+          return false;
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="forms">
@@ -19,7 +28,7 @@
           <div class="fname">
             <label for="firstname">First name</label><br />
 
-            <input type="text" id="fistname" placeholder="First name" />
+            <input type="text" id="firstname" placeholder="First name" />
           </div>
           <div class="lname">
             <label for="lastname">Last name</label><br />
@@ -32,7 +41,8 @@
           </div>
         </div>
         <label for="Email">Email</label><br />
-        <input class="email"    
+        <input
+          class="email"
           type="email"
           id="email"
           placeholder="you@company.com"
@@ -56,9 +66,10 @@
         ><br />
         <input type="checkbox" id="privacypolicy" />
         <label class="pp" for="privacypolicy"
-          >You agree to our friendly <a href="">privacy policy</a></label ><br>
-      <button>Send Message</button>
-        </div>
+          >You agree to our friendly <a href="">privacy policy</a></label
+        ><br />
+        <button>Send Message</button>
+      </div>
       <div class="photo">
         <img src="images/bg2.jpg" alt="" />
       </div>
