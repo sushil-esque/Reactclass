@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+main {
+  background-color: white;
+  height: 90vh;
+  margin: 0 10vw;
+}
+footer {
+  background-color:black;
+  margin-top: auto;
+}
+header nav ul {
+  display: flex;
+  
+  gap: 20px;
+}
+header nav ul {
+  list-style: none;
+  margin-right: 15px;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+footer li {
+  list-style: none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  margin-top: auto
+ 
+}
+.login {
+  padding: 5px;
+}
+.createaccount {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+.copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+}
+/* .wrapper{
+    margin: 0 300px;
+} */
+.images {
+    width: 100%;
+    height: 90%;
+    
+    display: flex;
+    justify-content:center;
+    
+   
+  }
+.images img{
+ 
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.home-page{
+    height: 90vh;
+    margin: 0 10vw;
+    
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 90px;
+    height: 60px;
+}
+
+.about-image{
+  width: 50%;
+
+   
+}
+.about-page{
+    display: flex;
+   
+    
+    height: 90vh;
+    margin: 0 10vw;
+    
+}
+.about{
+    width: 50%;
+    background-color: rgb(64 65 60);
+    color: white;
+    padding: 25px;
+
+}
+.aboutphoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.list h2{
+  margin-bottom: 10px;
+}
+.list ul{
+  margin-top: 0;
+  padding-left: 16px;
+  list-style: n;
+}
+.list li{
+  margin-bottom: 10px;
+  color: gray;
+}
+.contact-page{
+  display: flex;
+   height: auto;
+   margin: 0 10vw;
+}
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+}
+.contact-image{
+  width: 100%;
+  
+}
+.contact-image img{
+  width: 100%;
+  object-fit: cover;
+}
+.textss h1{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.textss p{
+  color: gray;
+}
+.form{
+  background-color: #f5f7f7;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+ 
+  
+  
+}
+.form label{
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.form button{
+padding: 10px;
+  margin: 10px 120px;
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}
+.form button:active{
+  background-color: white;
+  color: black;
+
+}
+.social li{
+  margin: 10px;
+}
+.social a{
+  color: white;
+}
+.social a :hover{
+  color: blue;
+}
