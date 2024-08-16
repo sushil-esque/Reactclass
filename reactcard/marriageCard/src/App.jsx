@@ -1,23 +1,11 @@
-import Card from "./Card"
-const wed1 ={
-groomName:"Hari",
- fatherName:"Ram", 
- brideName:"Sita",
-  brideFatherName:"Badal",
-  venue:"Banepa Party Palace"
-};
-const wed2 ={
-  groomName:"Ramu",
- fatherName:"Samir", 
- brideName:"Priyanka ",
-  brideFatherName:"Biku Lal",
-  venue:"Araniko Party Palace",
-}
+import Cardparent from './cardparent'
+import State from './State'
+
 function App() {
   return (
-    <div className="cards">
-      <Card data={wed1}/>
-      <Card data={wed2}/>
+    <div>
+      <State/>
+      <Cardparent/>
     </div>
   )
 }
