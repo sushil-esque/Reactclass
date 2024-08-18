@@ -1,6 +1,15 @@
 /* eslint-disable react/prop-types */
 import "./Card.css";
-function Card({ data }) {
+function Card({ data, setWed}) {
+  function change() {
+    setWed({
+      groomName: "Ramu",
+      fatherName: "Samir",
+      brideName: "Priyanka ",
+      brideFatherName: "Biku Lal",
+      venue: "Araniko Party Palace",
+    });
+  }
   return (
     <div className="container">
       <div className="card">
@@ -13,6 +22,7 @@ function Card({ data }) {
           {data.brideName}(Daughter of {data.brideFatherName})
         </h3>
         <h4>Venue:{data.venue}</h4>
+        <button onClick={change}>change</button>
         
         
       </div>

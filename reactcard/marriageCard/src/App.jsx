@@ -1,11 +1,12 @@
 import Cardparent from './cardparent'
 import State from './State'
+import Stateprops from './Stateprops'
 
 function App() {
   return (
     <div>
-      <State/>
-      <Cardparent/>
+      <Stateprops/>
+      
     </div>
   )
 }
