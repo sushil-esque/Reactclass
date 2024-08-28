@@ -1,4 +1,4 @@
- /* nav ul{
+ nav ul{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -8,9 +8,9 @@ nav li{
     cursor: pointer;
 }
 nav li:hover{
-    color: azure;
+  color: gray;
 }
-Footer{
+/* Footer{
 
 } */
 body {

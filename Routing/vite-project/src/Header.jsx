@@ -5,22 +5,24 @@ import Home from "./Home";
 
 // eslint-disable-next-line react/prop-types
 function Header(props) {
-  function routeHome() {
-    props.setRoute(<Home />);
-  }
-  function routeAbout() {
-    props.setRoute(<About />);
-  }
-  function routeContact() {
-    props.setRoute(<Contact />);
-  }
+  // function routeHome() {
+  //   props.setRoute(<Home />);
+  // }
+  // function routeAbout() {
+  //   props.setRoute(<About />);
+  // }
+  // function routeContact() {
+  //   props.setRoute(<Contact />);
+  // }
+  const {setRoute} = props;
+
   return (
     <div style={{ background: "white" }}>
       <nav>
         <ul>
-          <li onClick={routeHome}>Home</li>
-          <li onClick={routeAbout}>About</li>
-          <li onClick={routeContact}>Contact</li>
+          <li onClick={()=>{setRoute(<Home/>);}}>Home</li>
+          <li onClick={()=>{setRoute(<About/>);}}>About</li>
+          <li onClick={()=>{setRoute(<Contact/>);}}>Contact</li>
         </ul>
         <div className="account">
             <button className="login">Log in</button>
