@@ -6,7 +6,7 @@ import { useState } from "react";
 import Map from "./Map";
 
 function App() {
-  const[routes, setRoute]= useState(<Home/>);
+  // const[routes, setRoute]= useState(<Home/>);
   return (<>
   {/* <Header setRoute={setRoute}/>
   {routes}
